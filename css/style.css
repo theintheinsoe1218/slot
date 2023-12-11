@@ -1,0 +1,160 @@
+body {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+.main {
+  width: 360px;
+  min-height: 100vh;
+  background: linear-gradient(#37424c 0, #1c252d 100%);
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.nav {
+  width: inherit;
+  background: linear-gradient(90deg, #273038, #182028);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav .nav-img {
+  width: 50px;
+  height: 60px;
+}
+
+.nav-img img {
+  width: 100%;
+}
+
+.nav-login img {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-login {
+  background-color: #273038;
+  padding: 10px;
+  border-radius: 10px;
+  color: #98a7b5;
+  box-shadow: 0 0.02rem 0.1rem rgba(0, 0, 0, 0.2),
+    0 0.04rem 0.04rem rgba(0, 0, 0, 0.14);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn-register {
+  background-color: #2ec59c;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 0 0 0 #2ec59c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer {
+  width: inherit;
+  height: 70px;
+  background: #38444d;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.46);
+}
+
+footer a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .footer-item {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: 5px solid #1b242d;
+  margin-top: -20px;
+  border-radius: 50%;
+  background: linear-gradient(360deg, #1a2b32, #2bc299);
+  text-align: center;
+  color: #fff;
+}
+
+.marquee-text {
+  white-space: nowrap;
+  color: #fff;
+  font-weight: bold;
+  animation: marquee-scroll 10s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel {
+  height: 200px;
+}
+.carousel img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.footerinfo {
+  background-color: #182028;
+  padding: 10px;
+}
+
+.footer-logo img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.footer-text {
+  color: #999a9a;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+.footer-img img {
+  width: 30px;
+  height: 30px;
+}
+
+.game-content a span {
+  font-size: 14px;
+  white-space: nowrap;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.offcanvas {
+  max-width: 80% !important;
+}
+
+.modal-content {
+  background: linear-gradient(#273038, #182028) !important;
+}
