@@ -85,8 +85,8 @@ body {
 footer {
   width: inherit;
   height: 70px;
-  background: #38444d;
-  /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.46); */
+  /* background: #38444d; */
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.46);
   background: linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, #340057 56%);
 }
 
@@ -101,7 +101,7 @@ footer .footer-item {
   width: 80px;
   height: 80px;
   position: relative;
-  border: 5px solid #1b242d;
+  border: 5px solid #340057;
   margin-top: -20px;
   border-radius: 50%;
   background: linear-gradient(360deg, #1a2b32, #8e09e7);
