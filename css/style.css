@@ -182,7 +182,11 @@ footer .footer-item {
 }
 
 .modal-content {
-  background: linear-gradient(#273038, #182028) !important;
+  background: linear-gradient(
+    6deg,
+    rgba(102, 0, 149, 1) 0%,
+    rgba(52, 0, 87, 1) 56%
+  ) !important;
 }
 
 .nav .nav-item {
@@ -211,4 +215,31 @@ footer .footer-item {
   background-color: #340057;
   padding: 12px 14px;
   border-radius: 10px;
+}
+
+.topup input {
+  background-color: transparent;
+  border: 2px solid #6607a5;
+}
+
+.bank {
+  background-color: #6c757d;
+  border-radius: 10px;
+}
+
+.bank p {
+  color: #fff;
+  font-size: 14px;
+}
+.bank img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.wallet {
+  background-color: #6c757d;
+  cursor: pointer;
+}
+.active {
+  background-color: #6607a5;
 }
