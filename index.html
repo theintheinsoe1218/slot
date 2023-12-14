@@ -1236,6 +1236,57 @@
                 </form>
               </div>
             </div>
+
+            <div class="withdraw my-3 d-none">
+              <div class="topuptypes">
+                <h4 class="text-white">ငွေပေးချေမှုအမျိုးအစားများ withdraw</h4>
+                <div class="d-flex justify-content-around mt-2">
+                  <div class="bank ck text-center w-100 active pt-3">
+                    <img src="./images/bank/kpay.png" alt="" />
+                    <p class="text-center">K Pay</p>
+                  </div>
+                  <div class="bank cb text-center w-100 ms-1 pt-3">
+                    <img src="./images/bank/cbpay.png" alt="" />
+                    <p class="text-center">CB Pay</p>
+                  </div>
+                  <div class="bank text-center w-100 ms-1 pt-3">
+                    <img src="./images/bank/wpay.png" alt="" />
+                    <p class="text-center">Wave Pay</p>
+                  </div>
+                  <div class="bank text-center w-100 ms-1 pt-3">
+                    <img src="./images/bank/aya_logo.png" alt="" />
+                    <p class="text-center">Aya Pay</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-2">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="amount" class="form-label text-white fw-bold"
+                      >သွင်းငွေပမာဏ</label
+                    >
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="amount"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label text-white fw-bold"
+                      >ငွေသွင်းသူဖုန်းနံပါတ်</label
+                    >
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="phone"
+                      autocomplete="off"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <!-- <button
@@ -1262,4 +1313,33 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script>
+    $("#topup").click(function () {
+      $("#withdraw").removeClass("active");
+      $("#topup").addClass("active");
+
+      $(".topup").removeClass("d-none");
+      $(".withdraw").addClass("d-none");
+    });
+
+    $("#withdraw").click(function () {
+      $("#withdraw").addClass("active");
+      $("#topup").removeClass("active");
+
+      $(".withdraw").removeClass("d-none");
+      $(".topup").addClass("d-none");
+    });
+
+    const banks = document.querySelectorAll(".bank");
+
+    banks.forEach((bank) => {
+      bank.addEventListener("click", function () {
+        banks.forEach((other) => {
+          other.classList.remove("active");
+        });
+        this.classList.add("active");
+      });
+    });
+  </script>
 </html>
