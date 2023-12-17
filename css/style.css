@@ -244,3 +244,15 @@ footer .footer-item {
 .active {
   background-color: #6607a5;
 }
+
+.dropdowns {
+  background: linear-gradient(
+    6deg,
+    rgba(102, 0, 149, 1) 0%,
+    rgba(52, 0, 87, 1) 56%
+  );
+}
+
+.dropdowns li a {
+  color: #fff;
+}
