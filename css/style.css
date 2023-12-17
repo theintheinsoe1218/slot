@@ -256,3 +256,39 @@ footer .footer-item {
 .dropdowns li a {
   color: #fff;
 }
+
+.wallet-top {
+  padding: 10px;
+  height: 350px;
+  position: relative;
+  background: linear-gradient(
+    6deg,
+    rgba(102, 0, 149, 1) 0%,
+    rgba(52, 0, 87, 1) 56%
+  );
+  border-radius: 10px;
+}
+
+.wallet-top::before {
+  content: "";
+  background-color: #6607a5;
+  border-radius: 10px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 10px;
+}
+
+.wallet-top-content {
+  height: 130px;
+  margin: 8px 20px;
+  background: #340057;
+  box-shadow: 0 0 0.08rem 0 rgba(0, 0, 0, 0.16);
+  border-bottom: 1px solid white;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+}
