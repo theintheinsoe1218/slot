@@ -292,3 +292,26 @@ footer .footer-item {
   position: relative;
   z-index: 2;
 }
+
+.user-information .card {
+  background: linear-gradient(
+    6deg,
+    rgba(102, 0, 149, 1) 0%,
+    rgba(52, 0, 87, 1) 56%
+  );
+  color: #fff;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #340057;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bet-total {
+  background-color: #6607a5;
+  margin: 0 10px;
+  border-radius: 10px;
+}
