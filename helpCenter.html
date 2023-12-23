@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Inter&family=Poppins:wght@300;400;500&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css"
+    />
+
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/b829c5162c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <!-- NAVBAR START -->
+      <div
+        class="d-flex justify-content-between align-items-center fixed-top mx-auto navs"
+      >
+        <div class="nav-img ms-2">
+          <a
+            href="index.html"
+            class="text-decoration-none"
+            style="color: #2ec59c; font-size: 18px"
+          >
+            <img
+              src="https://delightmyanmar.pro/user_app/assets/img/logo.png"
+              alt="logo"
+              style="width: 60px; height: 60px"
+            />
+          </a>
+        </div>
+        <div class="nav-login">
+          <!-- before login -->
+          <!-- <div class="d-flex justify-content-around align-items-center me-3">
+            <a
+              href="./login.html"
+              class="btn-login text-decoration-none d-block"
+              >လော့ဂ်အင်</a
+            >
+            <a
+              href="./register.html"
+              class="btn-register text-decoration-none mx-2"
+              >အကောင့်သစ်ဖွင့်ရန်</a
+            >
+            <img src="images/myanmarlogo.png" alt="myanmarlogo" />
+          </div> -->
+
+          <!-- after login -->
+          <div class="d-flex justify-content-around align-items-center me-3">
+            <a
+              href="#topupModal"
+              role="button"
+              data-bs-toggle="modal"
+              class="btn-login text-decoration-none"
+              >500000000000</a
+            >
+            <a href="#" class="text-decoration-none mx-2"
+              ><img
+                src="./images/user_avatar.png"
+                alt=""
+                style="border-radius: 50%"
+            /></a>
+            <img src="images/myanmarlogo.png" alt="myanmarlogo" />
+          </div>
+        </div>
+      </div>
+      <!-- NAVBAR END -->
+
+      <!-- Content start -->
+      <div style="padding-top: 50px;">
+        <div class="list-group">
+            <div class="d-flex justify-content-between align-items-center p-2 bg-transparent my-2">
+                <a href="#item1" class="text-white text-decoration-none" data-toggle="collapse">ကြှနျုပျတို့အကွောငျး</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="collapse" id="item1">
+              <div>
+                <a href="#" class="p-3 text-white text-decoration-none" data-toggle="modal" data-target="#myModal1">ကြှနျုပျတို့အကွောငျး</a>
+              </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal1">
+                <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title " style="font-size: 14px;">ကြှနျုပျတို့အကွောငျး</h4>
+                    <button type="button" class="close bg-transparent text-white" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal Body -->
+                    <div class="modal-body" style="color: gainsboro;font-size: 12px;" >
+                        <p>ကုမ္ပဏီပရိုဖိုင်</p>
+                        <p>အဖွဲ့သည် နည်းပညာဆိုင်ရာ ဆန်းသစ်တီထွင်မှုများကို မပျင်းမရိလိုက်စားနေပါသည်။ ယနေ့တွင်၊ အဖွဲ့သည် ပုဂ္ဂိုလ်ရေးသီးသန့်အသုံးပြုသူအတွေ့အကြုံ၊ နည်းပညာအဆင့်မြင့်ထုတ်ကုန်များ၊ ပြင်းထန်သောဂိမ်းကစားနိုင်စွမ်းနှင့် တွေးခေါ်မြော်မြင်တတ်သည့် သုံးစွဲသူဝန်ဆောင်မှုကို ရရှိထားပါသည်။ အရည်အသွေး၊ ပြီးပြည့်စုံပါသည်။ နည်းပညာပိုင်းဆိုင်ရာ အာမခံချက်နှင့် ပံ့ပိုးကူညီမှုများ၊ လုံခြုံပြီး ထိရောက်သော ငွေပေးချေမှု ပလပ်ဖောင်းသည် သုံးစွဲသူများအတွက် ကျယ်ကျယ်ပြန့်ပြန့် အပြန်အလှန်အကျိုးပြုသည့် ဖျော်ဖြေရေးပလက်ဖောင်းကို ဖန်တီးထားပြီး၊ ကဏ္ဍပေါင်းစုံတွင် နာမည်ကောင်းတစ်ခု ဖန်တီးထားပြီး လုပ်ငန်းနှင့် သုံးစွဲသူများက တညီတညွတ်တည်း အသိအမှတ်ပြုထားသည်။ </p>
+                        <p>ငွေပေးချေမှုနည်းလမ်း</p>
+                        <p>အဖွဲ့သည် အဖွဲ့ဝင်များအား ဘေးကင်းသော၊ အမြန်ဆန်ဆုံးနှင့် အဆင်ပြေဆုံး ငွေပေးချေမှုနည်းလမ်းကို ပံ့ပိုးပေးသည်၊ ကျေးဇူးပြု၍ အပ်ငွေနှင့် ငွေထုတ်သည့် စာမျက်နှာသို့ ဝင်ကြည့်ပါ၊ နောက်ထပ် ငွေသွင်းခြင်းနှင့် ငွေထုတ်နည်းလမ်းများကို ကြည့်ရှုပါ။ </p>
+                        <p>ဖောက်သည်ဝန်ဆောင်မှု</p>
+                        <p>ဖောက်သည်များ၏ လိုအပ်ချက်များကို ဖြည့်ဆည်းခြင်းသည် အဖွဲ့၏ ထာဝရစီးပွားရေးဒဿနဖြစ်သည်-</p>
+
+                        <ul>
+                            <li>1. ဖောက်သည် ဦးစွာ။ </li>
+                            <li>၂။ သမာဓိစီမံခန့်ခွဲမှု။ </li>
+                            <li>၃။ သင်၏မျှော်လင့်ချက်များကို ကျော်လွန်အောင် ဆက်လက်လုပ်ဆောင်ပါ။ </li>
+                        </ul>
+                        <p>ဘေးကင်းပြီး ယုံကြည်စိတ်ချရသော</p>
+                        <p>အဖွဲ့၏ဘဏ္ဍာရေးစနစ်အား ဒေသဆိုင်ရာ စည်းမျဉ်းများဖြင့် ကြီးကြပ်ပြီး လုပ်ငန်းဆိုင်ရာ စံနှုန်းများနှင့် ကိုက်ညီပါသည်။ ကျွန်ုပ်တို့တွင် တည်ငြိမ်သောဘဏ္ဍာရေးနောက်ခံရှိပြီး ဘဏ္ဍာရေးအဆင့်နှင့်ညီမျှသော လုံခြုံစိတ်ချရသော သတင်းအချက်အလက်စနစ်တစ်ခုကို အသုံးပြုပါသည်။ အဖွဲ့ဝင်များ၏ ရန်ပုံငွေနှင့် အခွင့်အရေးများကို ယုံကြည်စိတ်ချစွာ အကာအကွယ်ပေးပါမည်။ </p>
+
+                        <p>ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများ</p>
+
+                        <p>အဖွဲ့သည် သင့်အား အရည်အသွေးပြည့်မီသော ဝန်ဆောင်မှုများဖြင့် စိတ်နှလုံးအကြွင်းမဲ့ ပံ့ပိုးပေးမည်ဖြစ်ပြီး ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများကို စဉ်ဆက်မပြတ်တိုးတက်ကောင်းမွန်ပြီး ပြီးပြည့်စုံစေရန်အတွက် သင်၏တန်ဖိုးရှိသောအကြံပြုချက်များကိုလည်း ကြိုဆိုပါသည်။ သင့်တွင် မေးခွန်းများ သို့မဟုတ် အကြံပြုချက်များရှိပါက၊ အွန်လိုင်းဖောက်သည်ဝန်ဆောင်မှု သို့မဟုတ် ဘူတာရုံမေးလ်မှတစ်ဆင့် ကျွန်ုပ်တို့ထံ ဆက်သွယ်နိုင်ပြီး၊ ကျွန်ုပ်တို့သည် သင့်အား တတ်နိုင်သမျှ အမြန်ဆုံး အကြောင်းပြန်ပေးပါမည်။ </p>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center p-2 bg-transparent">
+                <a href="#item2" class="text-white text-decoration-none" data-toggle="collapse">အသင်းအဖွဲ့ရေးရာ</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="collapse" id="item2">
+              <div>
+                <a href="#" class="p-3 text-white text-decoration-none" data-toggle="modal" data-target="#myModal2">အသင်းအဖွဲ့ရေးရာ</a>
+              </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal2">
+                <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title " style="font-size: 14px;">အသင်းအဖွဲ့ရေးရာ</h4>
+                    <button type="button" class="close bg-transparent text-white" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal Body -->
+                    <div class="modal-body" style="color: gainsboro;font-size: 12px;" >
+                            <p>၁။ ဝယ်ယူသူများသည် ၎င်းတို့၏နိုင်ငံ သို့မဟုတ် နေထိုင်ရာနေရာ၏ သက်ဆိုင်ရာဥပဒေများနှင့် စည်းမျဉ်းများကို အာရုံစိုက်ပြီး သံသယရှိပါက သက်ဆိုင်ရာပြဿနာများအတွက် ဒေသဆိုင်ရာ ဥပဒေအကြံဉာဏ်ကို ရယူသင့်သည်။ ကုမ္ပဏီသည် ဒေသတွင်း လောင်းကစား သို့မဟုတ် လောင်းကစားဥပဒေများကို ချိုးဖောက်မှုအတွက် မည်သည့်ဖောက်သည်ထံမှ မည်သည့်တာဝန်ကိုမှ လက်ခံမည်မဟုတ်ပါ။ </p>
+                            <p>2. Group သည် ၎င်း၏ဝဘ်စာမျက်နှာသို့ ချိတ်ဆက်ထားသော ပြင်ပဝဘ်ဆိုက်များတွင်ပါရှိသော အကြောင်းအရာများ၏ တိကျမှု သို့မဟုတ် အချိန်ကိုက်မှုအပေါ် ထိန်းချုပ်မှုတစ်စုံတစ်ရာမရှိပါ၊ ၎င်းအတွက် တာဝန်မရှိပါ။ </p>
+                            <p>၃။ ဝဘ်ဆိုက်ရှိ အချက်အလက်များ၏ တိကျမှု၊ ပြီးပြည့်စုံမှုနှင့် အချိန်ကိုက်မှုရှိစေရန် ကျွန်ုပ်တို့သည် အကောင်းဆုံးကြိုးစားသွားမည် (အရာအားလုံးသည် ထုတ်ဝေသည့်နေ့စွဲအတိုင်းဖြစ်သည်)၊ သို့သော် ကုမ္ပဏီသည် တိကျမှု၊ ပြည့်စုံမှုနှင့် အာမခံချက်မပေးနိုင်ပါ။ သက်ဆိုင်ရာ အကြောင်းအရာများ၏ အချိန်ကိုက်မှု။ အချိန်ကိုက်မှု၊ ကွန်ရက်နည်းပညာနှင့် စာစီစာရိုက်ခြင်း ထိရောက်မှုတို့သည် 100% တိကျမှုကို ရရှိနိုင်သည်။ </p>
+                            <p>၄။ ဝဘ်ဆိုက်ရှိ အချက်အလက်၏ တစ်စိတ်တစ်ပိုင်းသည် ၎င်း၏ ထုတ်ပြန်သည့် ရက်စွဲနှင့် အချိန်တို့နှင့် သက်ဆိုင်သည်။ ထို့ကြောင့်၊ သတ်မှတ်ထားသော ရက်စွဲနှင့် အချိန်ပြီးနောက်၊ သက်ဆိုင်ရာ အချက်အလက်များသည် တိကျပြီး မှန်ကန်တော့မည် မဟုတ်ဘဲ ကုမ္ပဏီမှ ပရောဂျက်ကို အပ်ဒိတ်လုပ်ရန် ကတိမပေးသည့်အပြင် ၎င်းကို လက်ခံကျင့်သုံးခြင်းမပြုမီ အချက်အလက်များ၏ စစ်မှန်မှုကို စစ်ဆေးခြင်းနှင့် စိစစ်ခြင်းအတွက် သင်သည်လည်း တာဝန်ရှိပါသည်။ ကုမ္ပဏီသည် ဝဘ်ဆိုဒ်၏ အကြောင်းအရာကို ကြိုတင်အသိမပေးဘဲ ပြုပြင်ပြောင်းလဲရန် သို့မဟုတ် အပ်ဒိတ်လုပ်ပိုင်ခွင့်ကို လက်ဝယ်ရှိသည်။ တစ်ချိန်တည်းမှာပင်၊ အချို့သောထုတ်ကုန်များ သို့မဟုတ် ဝန်ဆောင်မှုများသည် စည်းမျဉ်းများနှင့် အခြားကန့်သတ်ချက်များကို လိုက်နာသောကြောင့် သက်ဆိုင်ရာပစ္စည်းများသည် စျေးကွက်အားလုံးအတွက် မသင့်လျော်ပါ။ </p>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center p-2 bg-transparent my-2">
+                <a href="#item3" class="text-white text-decoration-none" data-toggle="collapse" >ဘုံပြဿနာ</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="collapse" id="item3">
+              <div>
+                <a href="#" class="p-3 text-white text-decoration-none" data-toggle="modal" data-target="#myModal3">ဘုံပြဿနာ</a>
+              </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal3">
+                <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title " style="font-size: 14px;">ဘုံပြဿနာ</h4>
+                    <button type="button" class="close bg-transparent text-white" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal Body -->
+                    <div class="modal-body" style="color: gainsboro;font-size: 12px;" >
+                        <p>၁။ ကျွန်ုပ်၏အကောင့်သည် အဘယ်ကြောင့် အပျက်သဘောဖြစ်သွားသနည်း။ </p>
+                        <p>၎င်းသည် အချို့သော ခွဲတမ်းများ လွှဲပြောင်းခြင်း သို့မဟုတ် လောင်းကစား အမှားအယွင်းတစ်ခုကြောင့် အချို့သော ပွဲစဉ်များကို ပြန်လည်ဖြေရှင်းခြင်းကြောင့် ဖြစ်ပေါ်လာခြင်းဖြစ်သည်။ သီးခြားအခြေအနေအကြောင်း မေးမြန်းရန် အွန်လိုင်းဖောက်သည်ဝန်ဆောင်မှုကို ဆက်သွယ်ရန် အကြံပြုအပ်ပါသည်။ </p><br>
+                        <p>၂။ ဝဘ်ဆိုက်ရှိဂိမ်းအားလုံးသည် အလျှော့အတင်းများတွင် ပါဝင်ပါသလား။ </p>
+                        <p>ကျေးဇူးပြု၍ ပရိုမိုးရှင်းစာမျက်နှာရှိ သက်ဆိုင်ရာပြန်အမ်းငွေဂိမ်းပစ္စည်းများကို စစ်ဆေးပါ။ </p><br>
+                        <p>၃။ ငွေပေးငွေယူ မပြီးပြတ်သေးဘဲ ငွေထုတ်ခြင်းကို မပြုလုပ်နိုင်ရကြောင်း အဘယ်ကြောင့် အကြောင်းကြားရသနည်း။ </p>
+                        <p>ဝဘ်ဆိုက်ကို ပလပ်ဖောင်းများစွာဖြင့် လည်ပတ်နေသောကြောင့် ဒေတာပေးပို့ခြင်းနှင့် အပ်ဒိတ်လုပ်ငန်းစဉ်များ လိုအပ်ပြီး ပုံမှန်လောင်းကြေးအလို့ငှာ ပြေလည်မှုရပြီး 10 မိနစ်အတွင်း အပ်ဒိတ်ကို ပြီးမြောက်စေမည် (အထူးကိစ္စများတွင် နှောင့်နှေးမည်)၊ ဒေတာမွမ်းမံမှုမွမ်းမံသည့်အခါ ငွေထုတ်ယူခြင်းမပြုနိုင်သည့်အခါ ငွေထုတ်ခြင်းလုပ်ငန်းသည် စီးဆင်းမှုကို အချက်ပြမည်ဖြစ်သည်။ ဂိမ်းပြီးဆုံးပြီးနောက် ငွေထုတ်ယူရန် 10 မိနစ်စောင့်ရန် အကြံပြုထားသည်။ </p><br>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center p-2 bg-transparent">
+                <a href="#item4" class="text-white text-decoration-none" data-toggle="collapse">လုံခြုံရေးသတိပေးချက်</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="collapse" id="item4">
+              <div>
+                <a href="#" class="p-3 text-white text-decoration-none" data-toggle="modal" data-target="#myModal4">လုံခြုံရေးသတိပေးချက်</a>
+              </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal4">
+              <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+          
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                  <h4 class="modal-title " style="font-size: 14px;">လုံခြုံရေးသတိပေးချက်</h4>
+                  <button type="button" class="close bg-transparent text-white" data-dismiss="modal">&times;</button>
+                  </div>
+          
+                  <!-- Modal Body -->
+                  <div class="modal-body" style="color: gainsboro;font-size: 12px;" >
+                    <p>1. သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်ကို ပေးဆောင်ရန် သို့မဟုတ် သင့်စကားဝှက်ကို ပြောင်းလဲရန် လိုအပ်သည့် အီးမေးလ်များကို စာမပြန်ပါနှင့်။ လိမ်လည်လှည့်ဖြားသူများသည် အများအားဖြင့် မှားယွင်းပြီး စိတ်လှုပ်ရှားဖွယ်မက်ဆေ့ချ်များ (ဥပမာ "အရေးတကြီး - သင့်အကောင့်အချက်အလက် ခိုးယူခံရခြင်း" ကဲ့သို့သော) ထံမှ ချက်ချင်းတုံ့ပြန်မှုရရန်၊ အသုံးပြုသူများ ပလပ်ဖောင်းသည် ဖောက်သည်အီးမေးလ် စကားဝှက်များ သို့မဟုတ် အကောင့်အချက်အလက်ကို မတောင်းပါ။ အီးမေးလ်သည် တရားဝင်ဖြစ်နိုင်သည်ဟု သင်ထင်သော်လည်း၊ အတည်ပြုချက်ရယူရန်အတွက် ကျွန်ုပ်တို့၏ဖောက်သည်ဝန်ဆောင်မှုကို ဆက်သွယ်ပါ သို့မဟုတ် ကြေငြာချက်များ၊ အသိပေးချက်များနှင့် အခြားအချက်အလက်များကိုကြည့်ရှုရန် ပလပ်ဖောင်းဝဘ်ဆိုဒ်သို့ ဝင်ရောက်ကြည့်ရှုပါ။</p>
+                    <p>2. ပလပ်ဖောင်းနှင့်သက်ဆိုင်သည့် ဝဘ်ဆိုက်တစ်ခုကို သင်သွားရောက်ကြည့်ရှုလိုပါက၊ ဝင်ရောက်ရန် ဘရောက်ဆာတွင် သက်ဆိုင်ရာ URL ကို တိုက်ရိုက်ထည့်ပါ၊ အီးမေးလ်အတွင်းရှိ မည်သည့် ဟိုက်ပါလင့်ခ်မှ ဝင်ရောက်ခြင်းမပြုပါနှင့်။ Phishers များသည် မကြာခဏ ဝဘ်ဆိုဒ်အတုများဆီသို့ သားကောင်များကို ညွှန်ကြားရန် အီးမေးလ်များတွင် လင့်ခ်များကို အသုံးပြုကြပြီး၊ ပလပ်ဖောင်း URL ကို အလားတူတစ်ခုနှင့် အစားထိုးလေ့ရှိသည်။ နှိပ်လိုက်သောအခါ၊ လိပ်စာဘားတွင်ပြသထားသော URL သည် အစစ်အမှန်နှင့်တူနိုင်သော်လည်း ၎င်းကို အတုလုပ်ကာ အတုအယောင်ဝဘ်ဆိုဒ်သို့ ခေါ်ဆောင်သွားနိုင်သည့် နည်းလမ်းအချို့ရှိပါသည်။ အီးမေးလ်အတုဟု သံသယရှိပါက အီးမေးလ်ရှိ မည်သည့်လင့်ခ်ကိုမျှ မနှိပ်ပါနှင့်၊ အတည်ပြုရန်အတွက် ဖောက်သည်ဝန်ဆောင်မှုကို ဆက်သွယ်ပါ။ ဘရောက်ဆာ၏ URL ဘားရှိလိပ်စာသည် ပလပ်ဖောင်း၏ တရားဝင်လိပ်စာဟုတ်မဟုတ် အကြိမ်ကြိမ်စစ်ဆေးပါ။</p>
+                    <p>3. သင့်ဘဏ်အကောင့်လက်ကျန်ငွေကို စစ်ဆေးရန် ပလပ်ဖောင်းအကောင့်သို့ ပုံမှန်ဝင်ရောက်ပါ။ သင့်အကောင့်အား ခွင့်ပြုချက်မရှိသူတစ်ဦးက ဝင်ရောက်အသုံးပြုသည်ဟု သင်သံသယရှိပါက သင့်စကားဝှက်ကို ချက်ချင်းပြောင်းပြီး ဖောက်သည်ဝန်ဆောင်မှုကို ချက်ချင်းအကြောင်းကြားပါ။ သံသယဖြစ်ဖွယ် အရောင်းအဝယ်များ သို့မဟုတ် အမှားအယွင်းများရှိပါက ကျွန်ုပ်တို့ထံ ချက်ချင်းအကြောင်းကြားပါ။</p>
+                    <p>4. ပလပ်ဖောင်းဝဘ်ဆိုက်တွင် ဘဏ်လုပ်ငန်းဆိုင်ရာ ငွေပေးငွေယူများကို လောင်းကြေးမတင်မီ၊ သင်သွားရောက်ကြည့်ရှုနေသော ဝဘ်ဆိုဒ်သည် သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များနှင့် အွန်လိုင်းငွေပေးငွေယူများကို ကာကွယ်ရန် ကုဒ်ဝှက်စနစ်ကို အသုံးပြုသည့် လုံခြုံသောဆာဗာတစ်ခုဖြစ်ကြောင်း သေချာပါစေ။ လိပ်စာဘားရှိ ဝဘ်လိပ်စာကို စစ်ဆေးပါ။ သင်သွားရောက်လည်ပတ်နေသည့် ဝဘ်ဆိုဒ်သည် လုံခြုံသောဆာဗာပေါ်တွင် ရှိနေပါက၊ ၎င်းသည် ပုံမှန် "http://" အစား "https://" ("S" secure) ဖြင့် စတင်သင့်သည်။ (SSL ကုဒ်ဝှက်ထားသော ဒေတာ၊ အပိုင်စီးခြင်းကို ဆန့်ကျင်သည်) ဘရောက်ဆာ၏ အခြေအနေဘားတွင် လော့ခ်ချသည့်သင်္ကေတကို ရှာပါ။ အိုင်ကွန်ပေါ်တွင် သင့်မောက်စ်ကို ရွှေ့ခြင်းဖြင့် ကုဒ်ဝှက်ခြင်းအဆင့်ကို စစ်ဆေးနိုင်သည်။ ဝဘ်ဆိုဒ်ကို ကုဒ်ဝှက်ထားရခြင်းသည် ဆိုက်သည် တရားဝင်သည်ဟု မဆိုလိုကြောင်း သတိပြုပါ။ ဒေတာကို ကုဒ်ဝှက်ထားသော ပုံစံဖြင့် ပေးပို့ထားကြောင်း ၎င်းသည် သင့်အား ပြောပြသည်။</p>
+                    <p>5. အကယ်၍ သင်သည် အီးမေးလ်တစ်စောင်ကို လက်ခံရရှိပါက၊ ၎င်းသည် အစစ်အမှန်မဟုတ်ကြောင်း သို့မဟုတ် လိမ်လည်လှည့်ဖြားသည့် ဝဘ်ဆိုဒ်အတုအပ platform တစ်ခုခုကို တွေ့ရှိပါက၊ ကျေးဇူးပြု၍ ကျွန်ုပ်တို့၏ အွန်လိုင်းဖောက်သည်ဝန်ဆောင်မှုဝန်ထမ်းကို ချက်ချင်းအကြောင်းကြားပါ။</p>
+                  </div>
+          
+              </div>
+              </div>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center p-2 bg-transparent my-2">
+            <a href="#item5" class="text-white text-decoration-none" data-toggle="collapse" >ကိုယ်ရေးမူဝါဒ</a>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="collapse" id="item5">
+          <div>
+            <a href="#" class="p-3 text-white text-decoration-none" data-toggle="modal" data-target="#myModal5">ကိုယ်ရေးအချက်အလက်မူဝါဒ</a>
+          </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal5">
+            <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title " style="font-size: 14px;">ကိုယ်ရေးအချက်အလက်မူဝါဒ</h4>
+                <button type="button" class="close bg-transparent text-white" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal Body -->
+                <div class="modal-body" style="color: gainsboro;font-size: 12px;" >
+                  <p>၁။ ဤကိုယ်ရေးကိုယ်တာမူဝါဒသည် ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများကို သင်အသုံးပြုသည့်အခါ ကျွန်ုပ်တို့စုဆောင်းရရှိသည့်အချက်အလက်၊ အဘယ်ကြောင့် ဤအချက်အလက်ကို ကျွန်ုပ်တို့စုဆောင်းရသနည်း၊ ကျွန်ုပ်တို့စုဆောင်းထားသော အချက်အလက်ကို မည်သို့အသုံးပြုကြောင်းကို သင့်အား သိစေပါသည်။ </p>
+                  <p>2။ အမည်၊ မွေးသက္ကရာဇ်၊ နေထိုင်မှု သို့မဟုတ် အခြား ကိုယ်ကာယလိပ်စာ၊ အီးမေးလ်လိပ်စာ၊ ဖုန်းနံပါတ် သို့မဟုတ် အခြားသက်ဆိုင်ရာ အချက်အလက်များအပါအဝင် လူတစ်ဦးချင်းစီကို ခွဲခြားသတ်မှတ်ရန် အသုံးပြုနိုင်သည့် အချက်အလက်များကို ကျွန်ုပ်တို့ ယုံကြည်ပါသည်။ , သည် ကိုယ်ရေးကိုယ်တာအချက်အလက်များ (“ကိုယ်ရေးကိုယ်တာအချက်အလက်များ”)။ကျွန်ုပ်တို့၏ဝဘ်ဆိုက်ကိုအသုံးပြုသည့်အခါ၊ အကောင့်တစ်ခုအတွက်စာရင်းသွင်းပါ သို့မဟုတ် ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများကိုအသုံးပြုသည့်အခါတွင်၊ သင့်အား ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုပေးရန် တောင်းဆိုနိုင်ပါသည်။ </p>
+                  <p>၃။ ဒေတာစုဆောင်းခြင်းနှင့် လုပ်ဆောင်ခြင်းနည်းလမ်းများသည် သင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ကာကွယ်ရန် ကတိပြုပါသည်။ ဤကိုယ်ရေးကိုယ်တာမူဝါဒသည် ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများကိုအသုံးပြုသည့်အခါ ကျွန်ုပ်တို့စုဆောင်းသည့်အချက်အလက်၊ ၎င်းကိုကျွန်ုပ်တို့ဘာကြောင့်စုဆောင်းရသနည်း၊ ကျွန်ုပ်တို့စုဆောင်းသည့်အချက်အလက်များကိုမည်သို့အသုံးပြုကြောင်းကို သင့်အား နားလည်စေပါသည်။ </p>
+                  <p>4. သတင်းအချက်အလက်အသုံးပြုခြင်း ကျွန်ုပ်တို့သည် ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများကိုပေးဆောင်ရန်၊ ဖောက်သည်ပံ့ပိုးကူညီရန်၊ လုံခြုံရေးနှင့် အထောက်အထားစစ်ဆေးမှုများလုပ်ဆောင်ရန်၊ မည်သည့်အွန်လိုင်းငွေပေးငွေယူများကိုမဆို လုပ်ဆောင်ရန်၊ သင့်ထံမှစုဆောင်းရရှိထားသော ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို အသုံးပြုပါသည်။ အချို့သော လုပ်ငန်းလိုအပ်ချက်များကို ဖြည့်ဆည်းပေးပြီး ဝန်ဆောင်မှုများ၏ လည်ပတ်မှုနှင့် အပြန်အလှန်အကျိုးပြုသည့် အခြားသော ရည်ရွယ်ချက်များအတွက် ဝန်ဆောင်မှုများကို ပံ့ပိုးပေးရန်။ </p>
+                  <p>5။ ကျွန်ုပ်တို့၏ဝဘ်ဆိုက် သို့မဟုတ် ဝန်ဆောင်မှုများတွင် ပေးထားသည့် အကောင့်ဆက်တင်များမှတစ်ဆင့် သို့မဟုတ် ကျွန်ုပ်တို့ လက်ခံရရှိသည့် အီးမေးလ်များမှတစ်ဆင့် သို့မဟုတ် ကျွန်ုပ်တို့ထံ အီးမေးလ်တစ်စောင် ပေးပို့ခြင်း သို့မဟုတ် ကျွန်ုပ်တို့ထံ စာရေးခြင်းဖြင့် အချိန်မရွေး ထွက်ခွာနိုင်သည် ပရိုမိုးရှင်းအချက်အလက်။ </p>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    
+        <!-- Add more items as needed -->
+    
+      </div>
+      <!-- Content end -->
+      
+
+      
+
+      <!-- FOOTER INFO START-->
+
+      <!-- FOOTER INFO END-->
+      <div class="footerinfo d-flex flex-column align-items-center mt-4">
+        <img
+          src="https://delightmyanmar.pro/user_app/assets/img/logo.png"
+          alt="logo"
+          class="mb-3"
+          style="width: 100px; height: 100px"
+        />
+        <div class="footer-logo">
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+
+          <img
+            src="https://www.iw021.com/img/google.0de8c058.png"
+            alt="google"
+          />
+        </div>
+        <div class="footer-text">
+          ဤဆိုက်သည် စွန့်စားခန်းအတွေ့အကြုံရှိသော ဂိမ်းများကို ပေးသည်။
+          ကျွန်ုပ်တို့၏ site ကိုအသုံးပြုသူတစ်ဦးဖြစ်လာရန်၊ သင်သည် အနည်းဆုံး အသက်
+          18 နှစ်ရှိရမည်။ အွန်လိုင်းဂိမ်းကစားခြင်းနှင့်ပတ်သက်၍
+          သင့်ဒေသဆိုင်ရာဥပဒေများကို ချိုးဖောက်မှုအတွက် ကျွန်ုပ်တို့တွင်
+          တာဝန်မရှိပါ။ တာဝန်သိစွာကစားပြီး ဖိလစ်ပိုင်ရှိ ရေပန်းအစားဆုံး
+          မိုင်းဂိမ်းဖြင့် ပျော်ရွှင်လိုက်ပါ။
+        </div>
+        <div class="footer-img my-4">
+          <img src="./images/footer/1.png" alt="" />
+          <img src="./images/footer/2.png" alt="" />
+          <img src="./images/footer/3.png" alt="" />
+          <img src="./images/footer/4.png" alt="" />
+          <img src="./images/footer/5.png " alt="" />
+          <img src="./images/footer/6.png" alt="" />
+          <img src="./images/footer/7.png" alt="" />
+        </div>
+
+        <div class="text-center" style="color: #999a9a; padding-bottom: 30px">
+          Copyright © 2023. All rights reserved.
+        </div>
+      </div>
+      <!-- FOOTER START -->
+      <footer class="fixed-bottom mx-auto">
+        <div class="d-flex justify-content-between align-items-center">
+          <a
+            class="text-center"
+            data-bs-toggle="offcanvas"
+            href="#sidebar"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M4 4H20.7865V7.04686H4V4Z" fill="currentColor"></path>
+              <path
+                d="M4 9.97657H20.7865V13.0234H4V9.97657Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M20.7865 15.9531H4V19H20.7865V15.9531Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <!-- <img src="./assets/img/footer_1.png" class="ps-2" alt=""> -->
+            <div class="footer-text">မီနူး</div>
+          </a>
+          <a href="#" class="text-center">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.3559 4.71877H10.7771C10.9301 4.47839 11.0209 4.18589 11.0209 3.87164C11.0209 2.99152 10.3072 2.27789 9.42712 2.27789C8.547 2.27789 7.83337 2.99152 7.83337 3.87164C7.83337 2.99152 7.11975 2.27789 6.23962 2.27789C5.3595 2.27789 4.64587 2.99152 4.64587 3.87164C4.64587 4.18552 4.73662 4.47839 4.89337 4.72514L4.88962 4.71877H3.31087C3.01275 4.71877 2.77087 4.96064 2.77087 5.25877V6.42877C2.77087 6.72689 3.01275 6.96877 3.31087 6.96877H12.3559C12.654 6.96877 12.8959 6.72689 12.8959 6.42877V5.25877C12.8959 4.96064 12.654 4.71877 12.3559 4.71877ZM8.77087 3.87502C8.77087 3.51277 9.06487 3.21877 9.42712 3.21877C9.78937 3.21877 10.0834 3.51277 10.0834 3.87502C10.0834 4.23727 9.78937 4.53127 9.42712 4.53127H8.77087V3.87502ZM6.23962 3.21877C6.60187 3.21877 6.89587 3.51277 6.89587 3.87502V4.53127H6.23962C5.87737 4.53127 5.58337 4.23727 5.58337 3.87502C5.58337 3.51277 5.87737 3.21877 6.23962 3.21877Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M3.52087 13.0625C3.52087 13.4281 3.81712 13.7244 4.18275 13.7244H6.89587V8.09937H3.52087V13.0625Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M8.77087 13.7188H11.484C11.8477 13.7188 12.1425 13.4255 12.1459 13.0629V8.09375H8.77087V13.7188Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <div class="footer-text">ဘောနပ်စ်</div>
+          </a>
+          <a href="./promotion.html" class="text-center">
+            <div class="footer-item">
+              <img
+                src="./images/wallet.gif"
+                alt="wallet"
+                style="width: 30px; height: 30px"
+              />
+              <div class="footer-text mt-1" style="font-size: 12px">
+                ပရိုမိုရှင်း
+              </div>
+            </div>
+          </a>
+          <a href="./agent.html" class="text-center">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 17 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.2398 6.8C13.5631 6.8 14.6398 5.72333 14.6398 4.4C14.6398 3.07667 13.5631 2 12.2398 2C10.9164 2 9.83977 3.07667 9.83977 4.4C9.83977 4.57227 9.85981 4.73984 9.89447 4.90187L7.81224 5.94277C7.26509 5.36534 6.49627 5 5.63977 5C3.98567 5 2.63977 6.3459 2.63977 8C2.63977 9.6541 3.98567 11 5.63977 11C6.49622 11 7.26509 10.6347 7.81224 10.0572L9.89445 11.0981C9.85976 11.2602 9.83977 11.4277 9.83977 11.6C9.83977 12.9233 10.9164 14 12.2398 14C13.5631 14 14.6398 12.9234 14.6398 11.6C14.6398 10.2766 13.5631 9.2 12.2398 9.2C11.5197 9.2 10.8801 9.52548 10.4399 10.0294L8.4455 9.03212C8.56484 8.70898 8.63977 8.36417 8.63977 8C8.63977 7.63583 8.56484 7.29102 8.4455 6.96788L10.44 5.97092C10.8803 6.4748 11.5197 6.8 12.2398 6.8ZM12.2398 10.4C12.9016 10.4 13.4398 10.9385 13.4398 11.6C13.4398 12.2615 12.9016 12.8 12.2398 12.8C11.5779 12.8 11.0398 12.2615 11.0398 11.6C11.0398 10.9385 11.5779 10.4 12.2398 10.4ZM5.63977 9.8C4.64719 9.8 3.83977 8.99258 3.83977 8C3.83977 7.00742 4.64719 6.2 5.63977 6.2C6.63235 6.2 7.43977 7.00742 7.43977 8C7.43977 8.99258 6.63235 9.8 5.63977 9.8ZM12.2398 3.2C12.9016 3.2 13.4398 3.73848 13.4398 4.4C13.4398 5.06152 12.9016 5.6 12.2398 5.6C11.5779 5.6 11.0398 5.06152 11.0398 4.4C11.0398 3.73848 11.5779 3.2 12.2398 3.2Z"
+                fill="url(#paint0_linear_127_2758)"
+              ></path>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_127_2758"
+                  x1="5.85746"
+                  y1="3.54174"
+                  x2="14.774"
+                  y2="12.4583"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#59FFC2"></stop>
+                  <stop offset="1" stop-color="#4551FF"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="footer-text">မြှင့်တင်ပါ။</div>
+          </a>
+          <a href="./index.html" class="text-center">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 17 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.65615 11.2253L2.01909 4.43216C1.99021 4.35873 1.97314 4.27382 1.97314 4.1848C1.97314 3.87058 2.18404 3.60271 2.48025 3.49851L2.48551 3.49687L6.7034 2.05825C6.78347 2.02954 6.87579 2.01313 6.97249 2.01313C7.30502 2.01313 7.58898 2.20962 7.69924 2.48528L7.70099 2.49021L7.85282 2.88401L4.74934 10.8861C4.71128 10.9821 4.6789 11.0961 4.6579 11.2138L4.65615 11.2253ZM15.9272 4.6184L12.4737 13.5229C12.3634 13.8035 12.0808 14 11.7491 14C11.6533 14 11.5614 13.9836 11.4765 13.9536L11.4818 13.9553L6.68065 12.3144C6.37918 12.2086 6.16829 11.9407 6.16829 11.6265C6.16829 11.5379 6.18491 11.453 6.21598 11.3742L6.21423 11.3791L9.66774 2.48036C9.77888 2.19772 10.0637 2 10.3976 2C10.4916 2 10.5818 2.01559 10.6649 2.0443L10.6596 2.04266L15.4608 3.68352C15.7623 3.78935 15.9731 4.05722 15.9731 4.37145C15.9731 4.46006 15.9565 4.54497 15.9255 4.62373L15.9272 4.6184ZM13.0106 8.1405L12.7073 7.47308C12.6465 7.34017 12.5083 7.2491 12.3472 7.2491C12.2943 7.2491 12.2435 7.25895 12.1972 7.277L12.1998 7.27618L11.6165 7.51697C11.5728 7.5342 11.5225 7.54405 11.4691 7.54405C11.3081 7.54405 11.1698 7.45298 11.1099 7.32253L11.109 7.32007L10.8583 6.77325C10.7983 6.6424 10.6623 6.55215 10.5034 6.55215C10.4483 6.55215 10.3958 6.56322 10.3481 6.5825L10.3507 6.58168L9.63318 6.86596C9.49272 6.92011 9.39559 7.04728 9.39559 7.19578C9.39559 7.24869 9.40784 7.29874 9.43016 7.34386L9.42928 7.34181L10.2869 9.23987C10.3503 9.37032 10.4886 9.45934 10.6487 9.45934C10.7034 9.45934 10.7555 9.44908 10.8027 9.43021L10.8001 9.43103L12.8185 8.62168C12.9471 8.56302 13.0342 8.4416 13.0342 8.30089C13.0342 8.24223 13.0189 8.18726 12.9922 8.13845L12.9931 8.1405H13.0106Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <div class="footer-text">ဂိမ်း</div>
+          </a>
+        </div>
+      </footer>
+      <!-- FOOTER END -->
+    </div>
+
+    <!-- SIDE BAR -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="sidebar"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body text-white">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex">
+                <img src="./images/sidebaricon/back.png" alt="back" />
+                <p class="ps-3">ရှေ့စာမျက်နှာ</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/sidebaricon/all.png" alt="all" />
+                <p class="ps-3">အားလုံး</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/hotgame.png" alt="hotgame" />
+                <p class="ps-3">ဟော့ဂိမ်းများ</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/slotlogo.png" alt="slot" />
+                <p class="ps-3">စလော့</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/fishgames/fishlogo.png" alt="fish" />
+                <p class="ps-3">ငါးဖမ်း</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img
+                  src="./images/livecasino/casinologo.png"
+                  alt="livecasino"
+                />
+                <p class="ps-3">LIVE Casino</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/sport/sportlogo.png" alt="livecasino" />
+                <p class="ps-3">SPORT</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/card/cardlogo.png" alt="card" />
+                <p class="ps-3">ကဒ်ဂိမ်း</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/esport/esportlogo.png" alt="esport" />
+                <p class="ps-3">Esports</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img
+                  src="./images/chickenfight/chickenfightlogo.png"
+                  alt="chickenfight"
+                />
+                <p class="ps-3">ကြက်တိုက်ခြင်း။</p>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-decoration-none">
+              <div class="d-flex list-card">
+                <img src="./images/lottery/lottorylogo.png" alt="lottery" />
+                <p class="ps-3">ထီ</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- <div class="dropdown mt-3">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
